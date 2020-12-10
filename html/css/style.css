@@ -16,18 +16,37 @@ header> h1 {
     color: white;
     text-align: center;
 }
-header>nav{
-    display: inline-block;
-}
 header> nav> ul{
     list-style: none;
 }
 nav>ul>li{
     display:inline;
 }
+#mainMenu>ul>li{
+    padding: none;
+    margin:none;
+    margin-right: 10px;
+}
 #mainMenu>ul>li>a{
     color: yellowgreen;
 }
-p{
-    font-family: OpenSans-Regular;
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+.menu>div{
+    flex:1 1 auto;
+}
+#mainMenu>ul{
+    padding: 0px;
+}
+#mainMenu{
+    text-align: left;
+}
+#social{
+    text-align: right;
+}
+#social img{
+    height: 30px;
+    width: 30px;
 }
