@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('Open_Sans/OpenSans-Regular.ttf');
+}
+body {
+    font-family: OpenSans-Regular;
+    font-size: 1.1rem;
+    width: 900px;
+    background-color:#2f3848 ;
+    margin: auto;
+    color: white;
+}
+header> h1 {
+    font-style: oblique 20deg;
+    background-color: #f05768;
+    color: white;
+    text-align: center;
+}
+header>nav{
+    display: inline-block;
+}
+header> nav> ul{
+    list-style: none;
+}
+nav>ul>li{
+    display:inline;
+}
+#mainMenu>ul>li>a{
+    color: yellowgreen;
+}
+p{
+    font-family: OpenSans-Regular;
+}
