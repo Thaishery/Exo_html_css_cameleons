@@ -15,6 +15,14 @@ header> h1 {
     background-color: #f05768;
     color: white;
     text-align: center;
+    border-bottom: solid rgb(189, 210, 238);
+    border-radius: 3px;
+}
+h1{
+    color:#00ccff;
+}
+a{
+    color:yellowgreen;
 }
 header> nav> ul{
     list-style: none;
@@ -47,6 +55,16 @@ nav>ul>li{
     text-align: right;
 }
 #social img{
-    height: 30px;
-    width: 30px;
+    margin: 3px;
+    height: 20px;
+    width: 20px;
+}
+figcaption{
+    padding: 1px;
+    position: relative;
+    top:-563px;
+    font-size: 1.1em;
+    background-color: #f05768;
+    width: 320px;
+    text-transform: uppercase;
 }
