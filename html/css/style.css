@@ -72,12 +72,12 @@ figcaption{
     text-transform: uppercase;
 }
 .mainFlex img{
-    width: 175px;
-    height: 175px;
+    width: 160px;
+    height: 160px;
 }
 .subFlexOne>img{
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
 }
 .subFlexOne{
     width: 50%;
@@ -86,8 +86,8 @@ figcaption{
     width: 50%;
 }
 .mainFlexLeft{
-    width: 70%;
-    flex:4 0;
+    width: 65%;
+    flex:3 0;
     display: flex;
     flex-wrap: wrap;
 }
@@ -99,7 +99,24 @@ figcaption{
     display:flex ;
     flex-wrap: wrap;
 }
-
+.mainFlexRight{
+    background-color: #004488;
+    height: 380px;
+}
+.mainFlexRight h1{
+    text-transform: uppercase;
+    font-size: 1em;
+    border-bottom: solid;
+    border-color: #00ccff;
+    border-width: 2px;
+    margin: 10px 10px;
+    padding-bottom: 20px;
+}
+.mainFlexRight p{
+    color: yellowgreen;
+    padding: 10px 10px;
+    font-size: 0.9em;
+}
 footer{
     text-align: center;
     color: #00ccff;
