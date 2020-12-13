@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'OpenSans-Regular';
-    src: url('Open_Sans/OpenSans-Regular.ttf');
+    src: url('../Open_Sans/OpenSans-Regular.ttf');
 }
 body {
     font-family: OpenSans-Regular;
@@ -72,21 +72,30 @@ figcaption{
     text-transform: uppercase;
 }
 .mainFlex img{
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
+
 }
 .subFlexOne>img{
-    width: 320px;
-    height: 320px;
+    width: 310px;
+    height: 310px;
 }
 .subFlexOne{
-    width: 50%;
+    width: 46%;
+    margin-right:6px;
 }
 .subFlexTwo{
     width: 50%;
 }
+.subFlexTwo>*{
+    margin: 3px;
+}
+.subFlexThree>*{
+    margin: 3px;
+    margin-bottom: 6px;
+}
 .mainFlexLeft{
-    width: 65%;
+    width: 60%;
     flex:3 0;
     display: flex;
     flex-wrap: wrap;
@@ -105,7 +114,7 @@ figcaption{
 }
 .mainFlexRight h1{
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 1.1em;
     border-bottom: solid;
     border-color: #00ccff;
     border-width: 2px;
@@ -115,7 +124,7 @@ figcaption{
 .mainFlexRight p{
     color: yellowgreen;
     padding: 10px 10px;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 footer{
     text-align: center;
